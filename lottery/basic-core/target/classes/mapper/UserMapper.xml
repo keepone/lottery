@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.UserDao">
+	<insert id="insertUser" parameterType="User" keyProperty="id">
+		insert
+		into user(
+		state,
+		nickname)
+		values
+		(
+		#{state},
+		#{nickname})
+	</insert>
+
+	<delete id="delete" parameterType="int">
+		delete from t_user where user_id=#{id}
+	</delete>
+
+	<update id="update" parameterType="User">
+		update t_user set user_name=#{userName},user_age=#{age} where user_id=#{id}
+	</update>
+	
+	<!-- mybsits_config中配置的alias类别名,也可直接配置resultType为类路径 -->
+	<select id="findById" parameterType="int" resultType="User">
+		select user_id id,user_name userName,user_age age from t_user where
+		user_id=#{id}
+	</select>
+	<select id="findAll" resultType="User">
+		select state id,nickname from user
+	</select>
+
+</mapper>
