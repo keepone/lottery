@@ -1,0 +1,17 @@
+INDEX VERSION 1.127
+/Users/Allen/develop/git/lottery/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3872782236.index
+/basic-web/src/main/resources
+/Users/Allen/develop/git/lottery/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2691657047.index
+/lottery/src/main/java
+/Users/Allen/develop/git/lottery/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3388806819.index
+/basic-web/src/main/resources
+/Users/Allen/develop/git/lottery/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/213196235.index
+/basic-web/src/main/resources
+/Users/Allen/develop/git/lottery/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3300157947.index
+/basic-web/src/main/resources
+/Users/Allen/develop/git/lottery/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3721489346.index
+/lottery/src/main/java
+/Users/Allen/develop/git/lottery/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3842427073.index
+/lottery/src/main/java
+/Users/Allen/develop/git/lottery/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2156384183.index
+/lottery/src/main/java

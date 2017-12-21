@@ -13,6 +13,9 @@
         <dependent-module archiveName="basic-dao-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/basic-dao/basic-dao">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="lottery-spider-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/lottery-spider/lottery-spider">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="basic-web"/>
         <property name="java-output-path" value="/basic-web/target/classes"/>
     </wb-module>

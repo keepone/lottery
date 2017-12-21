@@ -1,0 +1,13 @@
+package com.service.impl;
+
+import com.model.News;
+import com.service.NewsService;
+
+public class NewsServiceImpl implements NewsService{
+
+	public int insertNews(News news) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

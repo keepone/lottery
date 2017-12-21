@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.qiwan.lottery</groupId>
+	<artifactId>lottery-basic-develop-framework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>lottery-basic-develop-framework</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<!-- spring版本号 -->
+		<spring.version>4.1.1.RELEASE</spring.version>
+		<!-- mybatis版本号 -->
+		<mybatis.version>3.2.4</mybatis.version>
+		<!-- log4j日志文件管理包版本 -->
+		<slf4j.version>1.6.6</slf4j.version>
+		<log4j.version>1.2.9</log4j.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<modules>
+		<module>basic-dao</module>
+		<module>basic-core</module>
+		<module>basic-model</module>
+		<module>basic-web</module>
+		<module>lottery-crawl</module>
+		<module>basic-util</module>
+		<module>lottery-spider</module>
+		<module>basic-api</module>
+		<module>basic-utils</module>
+	</modules>
+</project>

@@ -1,0 +1,46 @@
+package org.lottery.spider;
+
+import java.io.IOException;
+import java.util.List;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        get();
+    }
+    /**
+     * 
+     * @return
+     */
+    public static List<String> get(){
+    	List<String> strs = null;
+    	String title=null;
+    	String href=null;
+    	Document doc=null;
+		try {
+			doc = Jsoup.connect("http://www.310win.com/jingcailanqiu/info_t1sub2page1.html").timeout(60000).get();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+    	Elements hrefs=doc.select("div.td_div3").select("a[href]");
+    	for(Element a:hrefs){
+    		title=a.text();
+    		if(title.indexOf("NBA竞彩")!=-1){
+    			href=a.absUrl("href");
+    			System.out.println(title+href);
+    		}
+    		
+    	}
+    	return strs;
+    }
+}

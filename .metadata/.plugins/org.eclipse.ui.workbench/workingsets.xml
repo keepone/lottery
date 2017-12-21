@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1511488733579_0" label="lottery-basic-develop-framework" name="lottery-basic-develop-framework">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/basic-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/basic-dao" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/basic-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lottery-spider" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/basic-model" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lottery" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/basic-api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/basic-utils" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1511499077851_1" label="Window Working Set" name="Aggregate for window 1511499077851"/>
+</workingSetManager>

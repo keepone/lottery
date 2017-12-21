@@ -1,0 +1,17 @@
+package com.service.impl;
+
+import javax.annotation.Resource;
+
+import com.dao.NewsDao;
+import com.model.News;
+import com.service.NewsService;
+
+public class NewsServiceImpl implements NewsService{
+	@Resource
+	private NewsDao newsDao;
+	public int insertNews(News news) {
+		// TODO Auto-generated method stub
+		return newsDao.insertNews(news);
+	}
+
+}

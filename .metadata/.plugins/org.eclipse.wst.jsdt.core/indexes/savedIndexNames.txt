@@ -1,0 +1,9 @@
+INDEX VERSION 1.3+/Users/Allen/develop/git/lottery/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2805020213.index
+3454590560.index
+213196235.index
+161562525.index
+204591689.index
+3091612637.index
+3300157947.index
+2799711991.index

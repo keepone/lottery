@@ -1,0 +1,7 @@
+#Tomcat publish data
+#Thu Dec 21 16:47:57 CST 2017
+org.eclipse.jst.j2ee.server\:basic-model=WEB-INF/lib/basic-model-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:/binary\:/Users/Allen/develop/maven/repository/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar=WEB-INF/lib/spring-web-4.1.1.RELEASE.jar
+org.eclipse.jst.j2ee.server\:basic-dao=WEB-INF/lib/basic-dao-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:basic-core=WEB-INF/lib/basic-core-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:lottery-spider=WEB-INF/lib/lottery-spider-0.0.1-SNAPSHOT.jar

@@ -1,0 +1,8 @@
+package com.service;
+
+import com.model.News;
+import com.model.User;
+
+public interface NewsService {
+	public int insertNews(News news);
+}
